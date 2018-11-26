@@ -10,3 +10,10 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (min-width: 406px) and (max-width:1170px) {
+  a[href="monkey.html"] img {
+    position: absolute;
+    top: -600px;
+	  right: 30px; 
+  }
+}
