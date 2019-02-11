@@ -24,3 +24,10 @@ html {
     transform: rotate(0.75turn);
   }
 }
+
+@media only screen and (max-width: 641px) {
+  #dolphin {
+    top: 400px;
+    transform: rotate(180deg);
+  }
+}
